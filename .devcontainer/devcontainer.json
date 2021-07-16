@@ -1,0 +1,4 @@
+{
+  "image": "pypi/chatterbot",
+  "forwardPorts": [5050]
+}
