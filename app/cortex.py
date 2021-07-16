@@ -10,7 +10,8 @@ class Cortex:
 
   def create_trainer():
     # Create a new trainer for the chatbot
-    return self.trainer = ChatterBotCorpusTrainer(chatbot)
+    self.trainer = ChatterBotCorpusTrainer(chatbot)
+    return self.trainer
 
   def train(file_name):
     self.trainer.train(file_name)
@@ -19,4 +20,4 @@ class Cortex:
     self.chatbot.get_response(text_input)
   
   def repeat(text_input):
-    # print("Python is " + x)
+    print("Python is " + x)

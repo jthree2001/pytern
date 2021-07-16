@@ -1,4 +1,4 @@
-from .app.cortex import Cortex
+from app.cortex import Cortex
 
 def main():
   cortex = Cortex.new()
